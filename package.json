@@ -1,0 +1,23 @@
+{
+  "name": "tp-progweb",
+  "version": "1.0.0",
+  "description": "Trabalho de Programação Web (BCC481). Periodo 22.2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phosilva02/TP-progWeb.git"
+  },
+  "author": "Pedro Henrique e Arthur Mayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phosilva02/TP-progWeb/issues"
+  },
+  "homepage": "https://github.com/phosilva02/TP-progWeb#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
