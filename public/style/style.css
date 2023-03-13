@@ -1,0 +1,72 @@
+body{
+    background-color: #00008B;
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    flex-direction: row;
+    line-height: 10px;
+}
+
+#logo .decom{
+    width: 98px;
+}
+
+#logo .ufop{
+    width: 41px;
+}
+
+
+
+li{
+    display: inline-block;
+    margin: 30px;
+    font-weight: bold
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #00BFFF;
+    transition: 0.3s all;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 150px;
+
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: #00BFFF;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 400px;
+}
