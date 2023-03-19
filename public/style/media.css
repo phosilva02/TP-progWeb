@@ -1,15 +1,33 @@
-@media screen and (max-width: 760px){
-
-    header{
+@media screen and (max-width: 1129px){
+    section{
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-
+}
+@media screen and (max-width: 1046px){
     main{
         flex-direction: column;
     }
+    h2{
+        text-align: center;
+    }
+    p{
+        max-width: none;
+    }
+}
+@media screen and (max-width: 847px){
+    header{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 760px){
 
     h2{
-        font-size: 38px;
+        font-size: 3.8rem;
+        text-align: center;
     }
 
     img{
@@ -18,5 +36,27 @@
 
     ul{
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 613px){
+    /*html{
+        font-size: 50%;
+    }*/
+    main{
+        margin: 50px 10vw;
+    }
+    p{
+        max-width: none;
+    }
+    article{
+        order: -1;
+    }
+    article img{
+        display: none;
+    }
+    .bloco-horario img{
+        width: 130%;
+        height: auto;
     }
 }
