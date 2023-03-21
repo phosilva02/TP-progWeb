@@ -80,6 +80,10 @@ img{
     width: 400px;
 }
 
+.horario h1{
+    font-size: 30px;
+    text-align: center;
+}
 .bloco-horario {
     text-align: center;
     padding-left: 15px;
@@ -100,9 +104,9 @@ img{
     width: 200px;
 }
 
-
-
-
+.bloco-horario p{
+    text-align: center;
+}
 
 .info-curso{
     display: inline;
@@ -131,3 +135,57 @@ img{
     display: block;
     margin: 30px 0px;
 }
+
+/** ICONES DE PROFESSORES **/
+
+
+.professor {
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    margin-right: 12px;
+    margin-top: -40px;
+
+  }
+  
+  .professor img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .professor p {
+    margin-top: 5px;
+    font-size: 1.4rem;
+    text-align: center;
+
+  }
+
+  .parte {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .quadProf h1{
+      text-align: center;
+      margin: 50px;
+      font-size: 30px;
+    }
+
+  .ver-mais {
+    background-color: #0066CC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1px 1px;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin-left: 85vh;
+  }
+  
+  .ver-mais:hover {
+    background-color: black;
+  }
