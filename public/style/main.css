@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 150px;
+
+}
+
+main h2{
+    font-size: 5.6rem;
+    line-height: 4rem;
+    font-family: poppinsmedium;
+}
+
+main span{
+    color: #00BFFF;
+}
+
+main p{
+    text-align: justify;
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+main img{
+    width: 400px;
+}
