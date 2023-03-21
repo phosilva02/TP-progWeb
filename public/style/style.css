@@ -170,7 +170,7 @@ img{
   
   .quadProf h1{
       text-align: center;
-      margin: 50px;
+      margin-bottom: 30px;
       font-size: 30px;
     }
 
@@ -189,3 +189,52 @@ img{
   .ver-mais:hover {
     background-color: black;
   }
+
+  /** noticias **/
+
+  .noticias-eventos{
+    text-align: center;
+  }
+
+  .noticias {
+    margin-top: 20px;
+  }
+
+  .noticias-eventos h2
+  {
+    font-size: 40px;    
+
+  }
+
+  .noticias h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .noticias h4 a {
+    text-decoration: none;
+    color: #00BFFF;
+  }
+  
+  .noticias h4 a:hover {
+    text-decoration: underline;
+  }
+
+  .ver-mais-eventos{
+    background-color: #0066CC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1px 1px;
+    margin: 40px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .ver-mais-eventos:hover{
+    background-color: black;
+
+  }
+
