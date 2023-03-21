@@ -1,0 +1,16 @@
+
+header li{
+    font-size: 1.6rem;
+    display: inline-block;
+    margin: 20px;
+    font-weight: bold
+}
+
+header a{
+    color: white;
+}
+
+header a:hover{
+    color: #00BFFF;
+    transition: 0.3s all;
+}
