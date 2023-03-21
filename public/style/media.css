@@ -21,6 +21,9 @@
     header{
         flex-direction: column;
     }
+    .info-curso h1{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 760px){
