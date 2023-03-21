@@ -1,6 +1,7 @@
 .horario h1{
     font-size: 30px;
     text-align: center;
+    margin-top: 60px;
 }
 .bloco-horario {
     text-align: center;
@@ -13,8 +14,12 @@
 }
 
 .bloco-horario h3{
-    font-size: 1.872rem;
+    font-size: 20px;
     font-family: poppinsregular;
+}
+
+.bloco-horario p{
+    font-size: 15px;
 }
 
 
