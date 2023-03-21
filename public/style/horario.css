@@ -1,0 +1,27 @@
+.horario h1{
+    font-size: 30px;
+    text-align: center;
+}
+.bloco-horario {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 20%;
+    float: left;
+    margin: 30px 150px;
+    font-family: poppinslight;
+}
+
+.bloco-horario h3{
+    font-size: 1.872rem;
+    font-family: poppinsregular;
+}
+
+
+.bloco-horario img{
+    width: 200px;
+}
+
+.bloco-horario p{
+    text-align: center;
+}

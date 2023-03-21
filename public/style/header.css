@@ -1,16 +1,37 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
-header li{
+#logo{
+    flex-direction: row;
+    line-height: 1.0rem;
+}
+
+#logo .decom{
+    width: 98px;
+}
+
+#logo .ufop{
+    width: 41px;
+}
+
+
+
+li{
     font-size: 1.6rem;
     display: inline-block;
     margin: 20px;
     font-weight: bold
 }
 
-header a{
+a{
     color: white;
 }
 
-header a:hover{
+a:hover{
     color: #00BFFF;
     transition: 0.3s all;
 }

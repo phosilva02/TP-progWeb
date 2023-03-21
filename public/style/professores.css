@@ -1,0 +1,50 @@
+.professor {
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    margin-right: 12px;
+    margin-top: -40px;
+
+  }
+  
+  .professor img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .professor p {
+    margin-top: 5px;
+    font-size: 1.4rem;
+    text-align: center;
+
+  }
+
+  .parte {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .quadProf h1{
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+
+  .ver-mais {
+    background-color: #0066CC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1px 1px;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin-left: 85vh;
+  }
+  
+  .ver-mais:hover {
+    background-color: black;
+  }
