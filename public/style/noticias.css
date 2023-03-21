@@ -1,6 +1,13 @@
 
   .noticias-eventos{
     text-align: center;
+  
+  }
+
+  .noticias-eventos-conteudo{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
   }
 
   .noticias {
@@ -13,6 +20,12 @@
 
   }
 
+  .noticias-eventos img
+  {
+    width: 400px;
+
+
+  }
   .noticias h4 {
     font-size: 20px;
     font-weight: bold;
