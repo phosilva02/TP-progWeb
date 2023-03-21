@@ -1,0 +1,30 @@
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    padding-top: 5vh;
+}
+.local-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.local-container li{
+    display: block;
+    
+}
+
+#cont{
+    display: flex;
+}
+
+.contato-container img{
+    width: 30px;
+    height: 30px;
+}
+
+.contato-container li{
+    display: block;
+    
+}

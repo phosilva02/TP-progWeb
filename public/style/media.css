@@ -6,6 +6,11 @@
         align-items: center;
     }
 }
+@media screen and (max-width: 1115px){
+    header{
+        flex-direction: column;
+    }
+}
 @media screen and (max-width: 1046px){
     main{
         flex-direction: column;
@@ -13,16 +18,40 @@
     h2{
         text-align: center;
     }
-    p{
+    main p{
+        text-align: center;
         max-width: none;
     }
 }
+@media screen and (max-width: 982px){
+    .quadProf .parte{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 943px){
+    .parte{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
 @media screen and (max-width: 847px){
     header{
         flex-direction: column;
     }
     .info-curso h1{
         text-align: center;
+    }
+}
+@media screen and (max-width: 822px){
+    .noticias-eventos-conteudo{
+        margin-left: 0px;
+    }
+    .noticias-eventos-conteudo img{
+        display: none;
     }
 }
 
@@ -61,5 +90,11 @@
     .bloco-horario img{
         width: 130%;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .info-curso h1{
+        font-size: 1.2em;
     }
 }
