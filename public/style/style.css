@@ -11,6 +11,7 @@ body{
     padding: 15px;
 }
 
+
 header{
     display: flex;
     flex-direction: row;
@@ -36,9 +37,10 @@ header{
 li{
     font-size: 1.6rem;
     display: inline-block;
-    margin: 30px;
+    margin: 20px;
     font-weight: bold
 }
+
 
 a{
     color: white;
