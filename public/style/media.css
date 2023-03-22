@@ -93,6 +93,12 @@
     }
 }
 
+@media screen and (max-width: 559px){
+    aside h2{
+        font-size: 4em;
+    }
+}
+
 @media screen and (max-width: 390px){
     .info-curso h1{
         font-size: 1.2em;
